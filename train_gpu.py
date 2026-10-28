@@ -1,3 +1,4 @@
+# CIFAR-10 图像分类实验：基于 PyTorch 的 CNN 模型
 import torch
 import torchvision.datasets
 import time
