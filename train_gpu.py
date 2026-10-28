@@ -43,7 +43,7 @@ loss_fn = nn.CrossEntropyLoss()
 if torch.cuda.is_available():
     loss_fn=loss_fn.cuda()
 # 优化器
-leaning_rate=1e-2
+leaning_rate=1e-3
 optimizer=torch.optim.SGD(beverly.parameters(),lr=leaning_rate)
 # 设置训练网络的参数
 total_train_step=0#记录训练次数
